@@ -76,9 +76,9 @@ nav ul li a:hover {
 }
 
 .skills {
-
+    
     background-color: black;
-    height: 255px;
+    height: 310px;
     width: 100%;
     display: inline-block;
     margin-bottom: 1%;
@@ -91,9 +91,11 @@ nav ul li a:hover {
     display: inline-block;
 }
 .h1 {
+    font-family: 'overlock',cursive;
     text-align: center;
-    color: teal;
-    text-decoration: solid;
+    font-size: 40px;
+    color:rgb(9, 158, 158);
+    font-weight:lighter;
     margin-top: 4.5%;
 }
 
@@ -139,7 +141,7 @@ nav ul li a:hover {
 }
 
 .abouttext {
-    font-family: 'Courier New', Courier, monospace;
+    font-family: monospace;
     font-size: 15px;
     margin-top: 10.4;
     color: #fff;
@@ -156,3 +158,32 @@ nav ul li a:hover {
     text-align: center;
     margin-top: 2%;
 }
+
+.project {
+    display: inline block;
+    height: 1000px;
+    width: 100%;
+    columns: white;
+}
+
+
+.container {
+
+
+    align-items: center;
+    height: 500px;
+    justify-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color:rgb(227, 223, 223);
+    margin-top: 3%;
+    box-shadow: 2cm;
+    
+}
+
+.container:hover {
+    width: 300px;
+    transition-timing-function: ease-in-out;
+    transition: width 2s,height 1s;
+
+  }
